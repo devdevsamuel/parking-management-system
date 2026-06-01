@@ -10,6 +10,7 @@ import { FIREBASE_COLLECTIONS } from '@/config/constants'
 import type { AppUser } from '@/types/user'
 
 export async function signIn(email: string, password: string): Promise<void> {
+  console.log('Attempting to sign in with email:', email)
   await signInWithEmailAndPassword(auth, email, password)
 }
 

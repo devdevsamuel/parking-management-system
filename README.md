@@ -39,3 +39,12 @@ Business logic is isolated from UI components, making the application easier to 
 ## Current Status
 
 This project is being developed as an MVP (Minimum Viable Product) focused on cash-based parking operations, with future plans for payment gateway integrations, multi-location support, and advanced reporting capabilities.
+
+File context lines	Purpose
+PROJECT_CONTEXT.md	101	Project overview, goals, stack, scope, roadmap
+ARCHITECTURE.md	245	Folder structure, layering, conventions, protected decisions
+BUSINESS_RULES.md	157	All approved business rules, MVP constraints, assumption challenges
+FIRESTORE_SCHEMA.md	430	All 7 collections documented with fields, types, indexes, relationships
+DEVELOPMENT_PROGRESS.md	205	Completed Phase 1 & 2, auth/authorization flows, technical debt, roadmap
+AI_RULES.md	145	Onboarding guide for future AI agents, forbidden changes, standards
+DECISIONS_LOG.md	333	30 architectural decisions with rationale, alternatives, and impact

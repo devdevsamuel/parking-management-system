@@ -74,6 +74,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
 
   const hasPermission = useCallback(
     (permission: Permission): boolean => {
+      console.log('Checking permission:', permission, 'for user:', user)
       if (!user) return false
       const permissions = ROLE_PERMISSIONS[user.role]
       return permissions.includes(permission)
